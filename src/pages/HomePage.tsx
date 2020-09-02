@@ -1,11 +1,11 @@
 import React from 'react';
-import './Home.css';
+import './HomePage.css';
 import { Link } from 'react-router-dom';
 import AppsIcon from '@material-ui/icons/Apps';
 import Avatar from '@material-ui/core/Avatar';
 import Search from '../components/Search';
 
-const Home: React.FC = () => {
+const HomePage: React.FC = () => {
     return (
         <div className="home">
             <div className="home__header">
@@ -30,4 +30,4 @@ const Home: React.FC = () => {
     )
 }
 
-export default Home;
+export default HomePage;

@@ -5,7 +5,8 @@ import {
   Route
 } from "react-router-dom";
 import './App.css';
-import Home from './pages/Home';
+import HomePage from './pages/HomePage';
+import SearchPage from './pages/SearchPage';
 
 function App() {
   return (
@@ -13,10 +14,10 @@ function App() {
       <Router>
         <Switch>
           <Route path="/search">
-            <h1>Search page</h1>
+            <SearchPage />
           </Route>
           <Route path="/">
-            <Home />
+            <HomePage />
           </Route>
         </Switch>
         {/* Search */}
